@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+/* CSS resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+/* HELPER CLASSES / GENERAL CLASSES */
+.grid {
+  display: grid;
+}
+.grid__3__cols {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.pad__small {
+  padding-left: 12px;
+}
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.pad__y__50 {
+  padding-top: 50px;
+}
+.pad__yb__30 {
+  padding-bottom: 30px;
+}
+
+/* HEADER SECTION */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 60px 24px 60px;
+  background: #0a3150;
+  color: #f7f7f7;
+}
+.blogs {
+  color: #f7f7f7;
+}
+
+/* MENU SECTION */
+.input__container {
+  display: flex;
+  flex: 0.98;
+  align-items: center;
+  border: 1px solid lightgray;
+  gap: 12px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 0 50px;
+  opacity: 0.8;
+}
+.input__container input {
+  outline: none;
+  border: none;
+  background: none;
+  padding-left: 10px;
+  padding: 10px 0;
+  font-size: 15px;
+  width: 100%;
+}
+.menu__header {
+  background: #f7f7f7;
+  padding: 20px 0 30px 0;
+}
+.icon {
+  font-size: 25px;
+}
+.cart__icon {
+  font-size: 35px !important;
+}
+
+.menu_container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.menu__text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.menu__text > a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu__text > a:nth-child(2) {
+  text-decoration: underline;
+}
+
+/* MEN COLLECTION */
+.title {
+  font-weight: 600;
+  padding-bottom: 40px;
+}
+
+.product__container > img {
+  width: 100%;
+}
+
+.men__collection__link {
+  display: flex;
+  justify-content: flex-end;
+  color: black;
+  padding-top: 30px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1300px) {
+  .header {
+    padding: 24px 20px 24px 20px;
+  }
+}
+@media (max-width: 1226px) {
+  .grid__3__cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .men__collection {
+    padding: 0 12px;
+  }
+  .menu__text {
+    flex-wrap: wrap;
+    flex-grow: 2px;
+  }
+}
