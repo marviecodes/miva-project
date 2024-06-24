@@ -116,6 +116,17 @@
   padding-top: 30px;
 }
 
+.section-explore .container .grid > div {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.grid__5__cols {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 1300px) {
   .header {
