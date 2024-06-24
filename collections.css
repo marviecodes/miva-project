@@ -17,6 +17,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.grid__5__cols {
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
 .pad__small {
   padding-left: 12px;
 }
@@ -29,6 +33,9 @@
 }
 .pad__yb__30 {
   padding-bottom: 30px;
+}
+.pad__yb__70 {
+  padding-bottom: 70px;
 }
 
 /* HEADER SECTION */
@@ -119,12 +126,9 @@
 .section-explore .container .grid > div {
   text-align: center;
   padding: 20px;
-  border: 1px solid lightgray;
-}
-
-.grid__5__cols {
-  grid-template-columns: repeat(5, 1fr);
-  gap: 20px;
+  color: gray;
+  border: 0.5px solid gray;
+  border-radius: 12px;
 }
 
 /* MEDIA QUERIES */
