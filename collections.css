@@ -137,6 +137,12 @@
     padding: 24px 20px 24px 20px;
   }
 }
+@media (max-width: 1258px) {
+  .grid__5__cols {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 @media (max-width: 1226px) {
   .grid__3__cols {
     grid-template-columns: repeat(2, 1fr);
@@ -156,5 +162,16 @@
   }
   .input__container {
     flex: 1;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid__5__cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .grid__5__cols {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
