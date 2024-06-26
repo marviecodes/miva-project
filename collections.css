@@ -102,7 +102,8 @@
   color: black;
 }
 
-.menu__text > a:nth-child(2) {
+.menu__text > a:hover,
+.menu__text > a:active {
   text-decoration: underline;
 }
 
