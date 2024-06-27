@@ -97,20 +97,21 @@
   padding-top: 30px;
 }
 
-.menu__text > a {
+a {
   text-decoration: none;
   color: black;
 }
 
-.menu__text > a:hover,
-.menu__text > a:active {
+a:hover, a:focus, a:active {
   text-decoration: underline;
+  font-weight: 400;
 }
 
 /* MEN COLLECTION */
 .title {
-  font-weight: 600;
+  font-weight: 500;
   padding-bottom: 40px;
+  font-size: 32px;
 }
 
 .product__container > img {
@@ -129,8 +130,30 @@
   padding: 20px;
   color: gray;
   border: 0.5px solid gray;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
+
+.section-explore .container .grid > div:first-child {
+  background: #E83831;
+  color: #f7f7f7;
+}
+
+.section-explore .container .grid > div:hover {
+  background: #E83831;
+  cursor: pointer;
+  color: #f7f7f7;
+
+}
+
+.gap {
+  column-gap: 80px;
+  row-gap: 100px;
+}
+
+.pd__bm {
+  padding-bottom: 70px;
+}
+
 
 /* MEDIA QUERIES */
 @media (max-width: 1300px) {
