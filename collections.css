@@ -155,7 +155,7 @@ a:hover, a:focus, a:active {
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES
 @media (max-width: 1300px) {
   .header {
     padding: 24px 20px 24px 20px;
@@ -198,4 +198,4 @@ a:hover, a:focus, a:active {
   .grid__5__cols {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
